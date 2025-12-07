@@ -61,7 +61,7 @@ export default function Quiz() {
           {!wrongAnswer ? (
             <h4>Congrazzles!!! Allt rétt!!!!</h4> 
           ) : (
-            <h4>Úps, allt vitlaust. Reyndu aftur.</h4>
+            <h4>Úps, vitlaust. Reyndu aftur.</h4>
           )}
         </div>
       ) : (

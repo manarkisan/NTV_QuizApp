@@ -63,10 +63,10 @@ const questions = [
     wrongAnswer: ["Krókódíll", "Dreki", "Kirin"]
   },
   {
-    Question: "Í hvaða borg hefur Nintendo höfuðstöðvar sýnar?",
-    Options: ["Kyoto", "Tokyo", "New York"],
-    correctAnswer: "Kyoto",
-    wrongAnswer: ["Tokyo", "New York"]
+    Question: "Hvenær kom fyrsta Apple tölvan út?",
+    Options: ["1976", "1977", "1984", "2001"],
+    correctAnswer: "1976",
+    wrongAnswer: ["1977", "1984", "2001"]
   },
    {
     Question: "Hvað er uppáhaldsliturinn minn?",

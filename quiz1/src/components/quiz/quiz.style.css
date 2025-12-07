@@ -8,8 +8,48 @@ body {
 
 .score {
     color: midnightblue;
+    padding: 10px;
 }
 
 .question-section {
-    color: darkslateblue;
+    color: rgb(14, 5, 75);
+    gap: 25px;
+}
+
+.question-count {
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 1.5rem;
+}
+
+.quest-text {
+    color: rgb(14, 5, 75);
+    padding: 1rem;
+}
+
+.answers-sect {
+    background-color: blueviolet;
+    margin: 3rem;
+    display: flex;
+    justify-content:space-around;
+}
+
+.answer-button {
+    background-color: blue;
+    color: antiquewhite;
+    border-radius: 25%;
+    padding: 0.6rem;
+    margin: 0.6rem;
+}
+
+.restart-sect {
+    background-color: aqua;
+    margin: 1rem;
+}
+
+.restart_btn {
+    background-color: darkslateblue;
+    color: cornsilk;
+    margin: 1rem;
+    margin-bottom: 2rem;
 }

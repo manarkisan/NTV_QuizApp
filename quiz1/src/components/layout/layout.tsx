@@ -10,8 +10,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       <header>
         <h1>Þetta er QuizApp!!!</h1>
         <nav>
-          <Link to="/">Heimasíða</Link>
-          <Link to="/quizMain">quiz</Link>
+          <></>
         </nav>
       </header>
       <main>{children} <Quiz>
