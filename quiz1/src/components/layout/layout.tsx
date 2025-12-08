@@ -8,14 +8,14 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="layout">
       <header>
-        <h1>Þetta er QuizApp!!!</h1>
+        <h1 className="logo">Þetta er QuizApp!!!</h1>
         <nav>
           <></>
         </nav>
       </header>
-      <main>{children} <Quiz>
-        
-      </Quiz></main>
+      <main>
+        {children} <Quiz></Quiz>
+      </main>
       <footer>
         <p>*This is a footer 🦶🏻*</p>
       </footer>

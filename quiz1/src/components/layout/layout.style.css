@@ -1,8 +1,21 @@
 body {
     background-color: rgb(52, 3, 97);
+    height: 100%;
 }
 
 footer {
-    margin-top: auto;
-    margin-bottom: 0px;
+    
+    margin-top: 100%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-self: center;
+}
+
+header {
+    color: rgb(241, 241, 230);
+    text-shadow: 10px 10px purple, 20px 20px plum, 30px 30px darkslateblue;
+    padding: 1.5rem;
+    transform: rotate(-7deg);
+    
 }

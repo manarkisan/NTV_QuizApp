@@ -3,11 +3,13 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+ 
+  margin-top: 0;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -33,9 +35,7 @@
   }
 }
 
-.card {
-  padding: 2em;
-}
+
 
 .read-the-docs {
   color: #888;
